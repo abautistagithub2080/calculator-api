@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "CALCULATOR_API.Controllers.CalcController",
+    "Method": "generateOperations",
+    "RelativePath": "api/Calc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oNumbers",
+        "Type": "CALCULATOR_API.Models.Calculator",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CALCULATOR_API.Controllers.CalcOtherController",
+    "Method": "factorial",
+    "RelativePath": "api/CalcOther",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oNumbers",
+        "Type": "CALCULATOR_API.Models.Calculator",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CALCULATOR_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CALCULATOR_API.WeatherForecast, CALCULATOR-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
